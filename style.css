@@ -1,0 +1,71 @@
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(to right, #ff00cc, #3333ff); /* Color bomb फेकलाय */
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #1f1f2e;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+      width: 90%;
+      max-width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ffcc00;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 4px;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    input, select {
+      background-color: #333;
+      color: #fff;
+    }
+
+    button {
+      background-color: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #fff200;
+      transform: scale(1.05);
+    }
+
+    #result {
+      margin-top: 20px;
+      background-color: #292940;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      color: #00ffcc;
+      font-size: 18px;
+    }
